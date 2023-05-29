@@ -1,0 +1,109 @@
+from tkinter import *: 
+Imports all the classes and functions from the Tkinter module.
+
+import json: 
+Imports the json module for working with JSON data.
+
+import tkinter as tk: 
+Imports the Tkinter module with an alias tk.
+
+import webbrowser:
+ Imports the webbrowser module for opening web pages.
+
+from geopy.geocoders import Nominatim:
+ Imports the Nominatim class from the geopy.geocoders module for geocoding location data.
+
+from tkinter import ttk, messagebox: 
+Imports specific classes from the Tkinter module for advanced widgets and message boxes.
+
+from timezonefinder import TimezoneFinder:
+ Imports the TimezoneFinder class for finding timezones based on coordinates.
+
+from datetime import *: 
+Imports the datetime module for working with dates and times.
+
+import requests: 
+Imports the requests module for making HTTP requests.
+
+import pytz:
+ Imports the pytz module for working with timezones.
+
+from PIL import Image, ImageTk: 
+Imports classes from the PIL module for working with images.
+Initializing the Tkinter root window:
+
+root = Tk(): 
+Creates the root window for the application.
+Various settings are configured for the root window, such as title, geometry, background color, and resizing options.
+Defining the getWeather function:
+
+This function is called when the user clicks the search button.
+It retrieves weather information based on the city entered by the user.
+The function uses various APIs and modules to fetch and process weather data, including geolocation, timezone, and weather forecast.
+The weather details are extracted from the JSON response obtained from the OpenWeatherMap API.
+Creating and placing various widgets:
+
+Labels, buttons, entry fields, and images are created and placed on the Tkinter window to create the user interface.
+Images are loaded using the PhotoImage class from the PIL module.
+
+The place() method is used to specify the coordinates for placing the widgets on the window.
+Displaying weather details:
+
+Labels (label1, label2, etc.) are created to display temperature, humidity, pressure, wind speed, and description.
+Additional labels (t, h, p, etc.) are created to display the actual weather values.
+The values are updated inside the getWeather function using the retrieved JSON data.
+
+
+from tkinter import *:
+ Imports all the classes and functions from the Tkinter module.
+
+import json: 
+Imports the json module for working with JSON data.
+
+import tkinter as tk:
+ Imports the Tkinter module with an alias tk.
+
+import webbrowser: 
+Imports the webbrowser module for opening web pages.
+
+from geopy.geocoders import Nominatim:
+ Imports the Nominatim class from the geopy.geocoders module for geocoding location data.
+
+from tkinter import ttk, messagebox: 
+Imports specific classes from the Tkinter module for advanced widgets and message boxes.
+
+from timezonefinder import TimezoneFinder: 
+Imports the TimezoneFinder class for finding timezones based on coordinates.
+
+from datetime import *: 
+Imports the datetime module for working with dates and times.
+
+import requests:
+ Imports the requests module for making HTTP requests.
+
+import pytz: 
+Imports the pytz module for working with timezones.
+
+from PIL import Image, ImageTk:
+ Imports classes from the PIL module for working with images.
+
+
+Initializing the Tkinter root window:
+
+root = Tk(): 
+Creates the root window for the application.
+Various settings are configured for the root window, such as title, geometry, background color, and resizing options.
+Defining the getWeather function:
+same as before
+
+Creating and placing various widgets:
+
+Labels, buttons, entry fields, and images are created and placed on the Tkinter window to create the user interface.
+Images are loaded using the PhotoImage class from the PIL module.
+The place() method is used to specify the coordinates for placing the widgets on the window.
+Displaying weather details:
+
+Labels (label1, label2, etc.) are created to display temperature, humidity, pressure, wind speed, and description.
+Additional labels (t, h, p, etc.) are created to display the actual weather values.
+
+The values are updated inside the getWeather function using the retrieved JSON data.
